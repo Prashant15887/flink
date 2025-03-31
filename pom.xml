@@ -926,6 +926,13 @@ under the License.
 				<version>${mockito.version}</version>
 				<scope>test</scope>
 			</dependency>
+
+			<dependency>
+    			<groupId>org.apache.flink</groupId>
+    			<artifactId>flink-connector-kafka</artifactId>
+    			<version>1.17-SNAPSHOT</version>
+			</dependency>
+			
 		</dependencies>
 	</dependencyManagement>
 
