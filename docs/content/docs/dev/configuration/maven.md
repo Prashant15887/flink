@@ -71,11 +71,7 @@ For example, you can add the Kafka connector as a dependency like this:
 ```xml
 <dependencies>
     
-    <dependency>
-        <groupId>org.apache.flink</groupId>
-        <artifactId>flink-connector-kafka</artifactId>
-        <version>{{< version >}}</version>
-    </dependency>
+    {{< connector_artifact flink-connector-kafka 1.17-SNAPSHOT >}}
     
 </dependencies>
 ```
